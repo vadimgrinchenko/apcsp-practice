@@ -1,11 +1,11 @@
 import time
+from datetime import datetime
 
-for x in range(360):
 
-
-    clock_value_hours = 3
-    clock_value_minutes = 45
-    clock_value_seconds = 20
+clock_value_hours = datetime.now().hour
+clock_value_minutes = datetime.now().minute
+clock_value_seconds = datetime.now().second
+for x in range(3600):
 
     hours = []
     minutes = []

@@ -2,9 +2,9 @@ import time
 from datetime import datetime
 
 
-clock_value_hours = datetime.now().hour
-clock_value_minutes = datetime.now().minute
-clock_value_seconds = datetime.now().second
+clock_value_hours = 10
+clock_value_minutes = 11
+clock_value_seconds = 12
 for x in range(3600):
 
     hours = []

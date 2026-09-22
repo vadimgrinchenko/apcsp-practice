@@ -12,7 +12,7 @@ if condition == "D" or mass > 2000 or size > 50:
 else:
     if shape == "BALL":
         if size > 10 and color == "RED":
-            destination = "B"
+            destination = "B" 
         else:
             destination = "A"   
     else:

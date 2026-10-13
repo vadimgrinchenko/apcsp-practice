@@ -6,4 +6,3 @@ while a != b:
     else:
         b = b - a
 print(a)
-
